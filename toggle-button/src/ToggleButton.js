@@ -24,7 +24,7 @@ class ToggleButton extends Component {
      * Click event handler on button 
      */
     handleClick() {
-        // Basic syntax
+        /// Basic syntax
         // this.setState((prevState, props) => {
         //     console.log('You clicked on this component.');
         //     return {
@@ -53,7 +53,7 @@ class ToggleButton extends Component {
     {
         console.log('render lai roi nhe.');
         return (
-            <button className="btn btn-warning" onClick={this.handleClick}>
+            <button type='button' className='btn btn-warning' onClick={this.handleClick}>
                 {this.state.isToggled ? 'ON' : 'OFF'}
             </button>
         );
