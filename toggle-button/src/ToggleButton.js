@@ -46,7 +46,6 @@ class ToggleButton extends Component {
         // });
     }
 
-
     /**
      * Render this component to UI
      */
